@@ -6,10 +6,11 @@ body{
 
 
 .home-wrapper{
-  background: linear-gradient(rgba(32, 85, 92, 0.5), rgba(32, 85, 92, 1));
+  background: rgb(18, 92, 126);
   background-size: cover;
   color: #ffffff;
 }
+
 
 
 #home{
@@ -19,7 +20,7 @@ body{
 
 
 #home h1{
-  color: #cccccc;
+  color: #ffffff;
   font-size: 68px;
   font-weight: normal;
   line-height: 1.2;
@@ -28,8 +29,15 @@ body{
 
 #home .divider{
   width: 80px;
-  border-top: 5px solid #020f0f;
+  border-top: 5px solid rgb(42, 146, 194);
   margin: 0 auto;
+}
+
+.raya {
+  width: 85%;
+  border-top: 5px solid #b1b1b1;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 #home p{
@@ -37,6 +45,24 @@ body{
   margin-top: 40px;
 }
 
+
+.col-sm-2 h4{
+  display: inline-block;
+  text-align: center;
+  font-size: 16;
+  margin: 30px;
+}
+
+.col-sm-10 p{
+  display: inline;
+  text-align: center;
+  font-size: 20px;
+}
+
+.col-sm-9 p{
+  text-align: center;
+  font-size: 20px;
+}
  .social{
   text-align: center;
   vertical-align: middle;
@@ -63,27 +89,6 @@ body{
   cursor: pointer;
 }
 
-.twitter {
-  color: white;
-  display: inline-block;
-  border-radius: 50%;
-  background-color: rgb(60, 199, 204);
-  font-size: 24px;
-  font-weight: bold;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  margin-right: 10px;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-}
-
-.twitter:hover {
-  background-color: rgb(0, 188, 194);
-  cursor: pointer;
-}
-
 .googleplus {
   color: white;
   display: inline-block;
@@ -102,4 +107,32 @@ body{
 .googleplus:hover {
   background-color: rgb(204, 41, 13);
   cursor: pointer;
+}
+
+.github {
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(110, 110, 110);
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.github:hover {
+  background-color: rgb(38, 38, 38);
+  cursor: pointer;
+}
+
+footer{
+  background: rgb(82, 83, 83);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', Arial sans-serif;
 }
